@@ -33,6 +33,8 @@ dependencies {
     testImplementation("org.springframework.security:spring-security-test")
     runtimeOnly("com.mysql:mysql-connector-j")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    testImplementation("io.rest-assured:rest-assured:4.5.0")
 }
 
 kotlin {
