@@ -17,8 +17,9 @@ This project follows the **Hexagonal Architecture (Ports and Adapters)**, which 
       ├── in # UseCase interfaces  
       └── out # Persistence abstraction (e.g., save/load) 
    └── service # Application service implementations
-└── domain # Core domain model (entities, logic) </pre>
+└── domain # Core domain model (entities, logic) 
 ```
+
 ### 🚧 Notice
 Only sign-up and duplicate email check features have been implemented at this stage.
 Please consider refactoring and extending for more detailed functionalities in the future.
